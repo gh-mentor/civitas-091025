@@ -6,7 +6,7 @@ Given the following:
     Array 1: [0b1010, 0b1100, 0b1111]
     Array 2: [0b0110, 0b0011, 0b0000]
 
-How would you use prompt engineering to generate a transformation procedure in Python that produces the following result for arrays of equal length?
+How would you generate a transformation procedure in Python that produces the following result for arrays of equal length?
 
     Array 1: [0b0010, 0b0110, 0b0101]
     Array 2: [0b1110, 0b1001, 0b1010]
@@ -19,11 +19,9 @@ Show robust unit tests for `conditional_bit_swap` using pytest or unittest, cove
 Implementation details:
 
 - the conditionalBitSwap function swaps the bits in the same positions
-
    of the elements of two char arrays, but only if the corresponding bit
-
    in the mask is set and the bits to be swapped are different.
-
 - the conditionalBitSwap function should not return anything.
+
 
 
